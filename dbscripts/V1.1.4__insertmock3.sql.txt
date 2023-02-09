@@ -1,0 +1,5 @@
+use schema DEMO1.PUBLIC;
+insert into MOCK_DATAAAA (id, first_name, last_name, email) values (8, 'Yale', 'Yarwood', 'yyarwood2@berkeley.edu');
+insert into MOCK_DATAAAA (id, first_name, last_name, email) values (9, 'Sammy', 'Georgins', 'sgeorgins3@apache.org');
+insert into MOCK_DATAAAA (id, first_name, last_name, email) values (10, 'Raine', 'Crowne', 'rcrowne4@craigslist.org');
+insert into MOCK_DATAAAA (id, first_name, last_name, email) values (11, 'Red', 'Benion', 'rbenion5@shutterfly.com');
