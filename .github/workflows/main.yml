@@ -24,12 +24,12 @@ jobs:
           
       - name: Run schemachange
         env:
-          SF_ACCOUNT: ${glhthvb-nu14441}
-          SF_USERNAME: ${ashima}
-          SF_ROLE: ${ACCOUNTADMIN}
-          SF_WAREHOUSE: ${cOMPUTE_WH}
-          SF_DATABASE: ${DEMO1}
-          SNOWFLAKE_PASSWORD: ${newAccount@1234}
+          SF_ACCOUNT1: ${{secrets.SF_ACCOUNT}}
+          SF_USERNAME1: ${{secrets.SF_USERNAME}}
+          SF_ROLE1: ${{secrets.SF_ROLE}}
+          SF_WAREHOUSE1: ${{secrets.SF_WAREHOUSE}}
+          SF_DATABASE1: ${{secrets.SF_DATABASE}}
+          SNOWFLAKE_PASSWORD1: ${{secrets.SF_PASSWORD}}
         run:  |
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           python --version
