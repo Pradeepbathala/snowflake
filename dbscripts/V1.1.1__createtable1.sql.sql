@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 use schema GITHUB.PUBLIC;
 create table MOCK_DATaaaa (
 	id INT,
