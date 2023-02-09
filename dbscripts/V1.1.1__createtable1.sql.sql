@@ -1,5 +1,5 @@
 
-use schema DEMO1.PUBLIC;
+use schema GIT.PUBLIC;
 create table MOCK_DATaaaa (
 	id INT,
 	first_name VARCHAR(50),
