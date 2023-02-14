@@ -6,7 +6,7 @@ on:
       - test
       
     paths:
-      - 'dbscripts/**'
+      - 'dbscripts1/**'
       
   workflow_dispatch:
   
