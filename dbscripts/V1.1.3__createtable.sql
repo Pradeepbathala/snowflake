@@ -1,4 +1,4 @@
-use schema GIT.PUBLIC;
+use schema DEMO1.PUBLIC;
 create table EMPLOYEE (
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
