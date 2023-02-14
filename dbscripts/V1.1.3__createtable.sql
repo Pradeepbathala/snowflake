@@ -1,3 +1,4 @@
+
 use schema DEMO1.PUBLIC;
 create table EMPLOYEE (
 	first_name VARCHAR(50),
@@ -5,3 +6,4 @@ create table EMPLOYEE (
 	email VARCHAR(50),
 	gender VARCHAR(50)
 );
+
