@@ -1,5 +1,5 @@
 use schema DEMO1.PUBLIC;
-create table emp (
+create table EMP (
 	id INT,
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
